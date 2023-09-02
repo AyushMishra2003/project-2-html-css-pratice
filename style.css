@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(217, 226, 226);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.container li{
+    list-style: none;
+    padding: 20px;
+}
+.container li a{
+    text-decoration: none;
+    color: black;
+    font-style:inherit;
+    cursor: pointer;
+}
+a:hover{
+    background-color: beige;
+}
+.container h4{
+    padding: 20px;
+    align-self: flex-start;
+    margin-right: 700px;
+    color: black;
+    font-style: initial;
+    font-size: 19px;
+}
+.section{
+   background-image: url(./IMAGE/pexels-photo-6782567.webp); background-position: center;
+   background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin:150px;
+    padding-left: 80px;
+    flex-wrap: wrap;
+}
+.heading h1{
+    font-size: 80px;
+    color: white;
+}
+.heading p{
+   margin-left: 65px;
+   padding-top: 20px;
+   font-style: italic;
+   font-weight: 100px;
+}
+.button{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.button button{
+    width: 120px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 50px;
+}
+button:hover{
+    background-color: darkgray;
+}
+/*
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    padding-right: 300px;
+}
+.heading h1{
+    color: white;
+    font-size: 50px;
+}
+*/
